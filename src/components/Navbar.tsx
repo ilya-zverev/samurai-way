@@ -1,5 +1,6 @@
+import css from './Navbar.module.css'
 function Navbar() {
-	return <nav className="nav">
+	return <nav className={css.nav}>
 		<div><a href="#">Profile</a></div>
 		<div><a href="#">Messages</a></div>
 		<div><a href="#">News</a></div>
