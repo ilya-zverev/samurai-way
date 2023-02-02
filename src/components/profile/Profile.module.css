@@ -2,4 +2,6 @@
     grid-area: c;
     background-color: blueviolet;
 }
-
+.content img {
+    width: 1000px;
+}
