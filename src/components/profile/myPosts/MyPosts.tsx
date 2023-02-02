@@ -5,9 +5,8 @@ function MyPosts() {
 	return <div className={css.content}>
 		<div>
 			My post
-			<Post/>
-			<Post/>
-			<Post/>
+			<Post message="Hello"/>
+			<Post message="Hi"/>
 		</div>
 	</div>;
 
